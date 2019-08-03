@@ -27,8 +27,8 @@ void RunnerInfo::SetDistance(double distRunMiles) {
 double RunnerInfo::GetSpeedMph() const {
 	cout << "timeRun = " << timeRun<<endl;
 	cout << "distRun = " << distRun<<endl;
-	cout << "timeRun / 3600 = " << (timeRun / 3600)<<endl;
-	double percentOfAnHourRun = timeRun / 3600;
+	cout << "timeRun / 3600 = " << ((double)timeRun / 3600)<<endl;
+	double percentOfAnHourRun = (double) timeRun / 3600;
 	double speedInMPH = distRun / percentOfAnHourRun;
 	//return distRun / (timeRun / 3600.0);
 	return speedInMPH;
@@ -45,7 +45,7 @@ int main()
 
 	cout << "setup runner2 "<<endl;
 	runner2.SetTime(200);
-	runner1.SetDistance(0.5);
+	runner2.SetDistance(0.5);
 	cout << endl;
 
 	cout << "Print Runner1's line" << endl;
