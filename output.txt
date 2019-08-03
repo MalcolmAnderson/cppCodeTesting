@@ -1,0 +1,16 @@
+setup runner1
+
+setup runner2 
+
+Print Runner1's line
+timeRun = 360
+distRun = 0.5
+timeRun / 3600 = 0
+Runner1's speed in MPH: inf
+
+Print Runner2's line
+timeRun = 200
+distRun = -9.25596e+61
+timeRun / 3600 = 0
+Runner2's speed in MPH: -inf
+
